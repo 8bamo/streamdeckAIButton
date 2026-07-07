@@ -53,24 +53,32 @@ dist\AI-Approval-Buttons.streamDeckPlugin
 
 ## Sequence Syntax
 
-The plugin uses Windows `SendKeys`.
+The plugin uses Windows `SendKeys`. These are the most useful entries:
 
-Useful examples:
+| What you want | Sequence |
+| --- | --- |
+| Press Enter | `{ENTER}` |
+| Choose option 1, then Enter | `1{ENTER}` |
+| Choose option 2, then Enter | `2{ENTER}` |
+| Choose option 3, then Enter | `3{ENTER}` |
+| Press Tab, then Enter | `{TAB}{ENTER}` |
+| Press Down, then Enter | `{DOWN}{ENTER}` |
+| Press Escape | `{ESC}` |
+| Press Ctrl+N | `^n` |
+| Press Ctrl+K | `^k` |
+| Press Ctrl+Shift+M | `^+m` |
+| Press Alt+Down | `%{DOWN}` |
+| Type `y` | `y` |
+| Type `n` | `n` |
 
-```text
-{ENTER}
-1{ENTER}
-2{ENTER}
-3{ENTER}
-{TAB}{ENTER}
-{DOWN}{ENTER}
-{ESC}
-^n
-^k
-^+m
-%{DOWN}
-y
-n
-```
+Modifier keys use this shorthand:
+
+| Key | Symbol |
+| --- | --- |
+| Ctrl | `^` |
+| Shift | `+` |
+| Alt | `%` |
+
+For example, `^+m` means Ctrl+Shift+M.
 
 Important: the target window must be focused. Stream Deck triggers the button, then the plugin sends the keys to the active window.
