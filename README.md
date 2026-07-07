@@ -22,7 +22,7 @@ You can edit every sequence in the Stream Deck property inspector.
 This creates:
 
 ```text
-dist\com.yusuf.aiapproval.sdPlugin
+dist\com.aiapproval.buttons.sdPlugin
 ```
 
 ## Install

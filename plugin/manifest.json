@@ -11,7 +11,7 @@
         }
       ],
       "Tooltip": "Sends the sequence for approving once.",
-      "UUID": "com.yusuf.aiapproval.yesonce"
+      "UUID": "com.aiapproval.buttons.yesonce"
     },
     {
       "Icon": "images/always",
@@ -24,7 +24,7 @@
         }
       ],
       "Tooltip": "Sends the sequence for always approving.",
-      "UUID": "com.yusuf.aiapproval.always"
+      "UUID": "com.aiapproval.buttons.always"
     },
     {
       "Icon": "images/no",
@@ -37,7 +37,7 @@
         }
       ],
       "Tooltip": "Sends the sequence for rejecting.",
-      "UUID": "com.yusuf.aiapproval.no"
+      "UUID": "com.aiapproval.buttons.no"
     },
     {
       "Icon": "images/custom",
@@ -50,7 +50,7 @@
         }
       ],
       "Tooltip": "Sends a freely configurable sequence.",
-      "UUID": "com.yusuf.aiapproval.custom"
+      "UUID": "com.aiapproval.buttons.custom"
     },
     {
       "Icon": "images/new-chat",
@@ -63,7 +63,7 @@
         }
       ],
       "Tooltip": "Sends the configured shortcut for starting a new chat.",
-      "UUID": "com.yusuf.aiapproval.newchat"
+      "UUID": "com.aiapproval.buttons.newchat"
     },
     {
       "Icon": "images/model-menu",
@@ -76,10 +76,10 @@
         }
       ],
       "Tooltip": "Sends the configured shortcut for opening or switching the model menu.",
-      "UUID": "com.yusuf.aiapproval.modelmenu"
+      "UUID": "com.aiapproval.buttons.modelmenu"
     }
   ],
-  "Author": "Yusuf",
+  "Author": "AI Approval Contributors",
   "Category": "AI Approval",
   "CategoryIcon": "images/category",
   "CodePathWin": "bin/AiApprovalDeck.exe",

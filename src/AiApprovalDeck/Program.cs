@@ -9,12 +9,12 @@ internal static class Program
 {
     private static readonly Dictionary<string, string> Defaults = new()
     {
-        ["com.yusuf.aiapproval.yesonce"] = "1{ENTER}",
-        ["com.yusuf.aiapproval.always"] = "2{ENTER}",
-        ["com.yusuf.aiapproval.no"] = "3{ENTER}",
-        ["com.yusuf.aiapproval.custom"] = "{ENTER}",
-        ["com.yusuf.aiapproval.newchat"] = "^n",
-        ["com.yusuf.aiapproval.modelmenu"] = "^+m"
+        ["com.aiapproval.buttons.yesonce"] = "1{ENTER}",
+        ["com.aiapproval.buttons.always"] = "2{ENTER}",
+        ["com.aiapproval.buttons.no"] = "3{ENTER}",
+        ["com.aiapproval.buttons.custom"] = "{ENTER}",
+        ["com.aiapproval.buttons.newchat"] = "^n",
+        ["com.aiapproval.buttons.modelmenu"] = "^+m"
     };
 
     [STAThread]

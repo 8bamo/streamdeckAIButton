@@ -5,7 +5,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
-$pluginId = "com.yusuf.aiapproval.sdPlugin"
+$pluginId = "com.aiapproval.buttons.sdPlugin"
 $dist = Join-Path $root "dist"
 $pluginDir = Join-Path $dist $pluginId
 $binDir = Join-Path $pluginDir "bin"
