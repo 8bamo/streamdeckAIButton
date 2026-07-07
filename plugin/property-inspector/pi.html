@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AI Approval Settings</title>
+    <link rel="stylesheet" href="sdpi.css">
+  </head>
+  <body>
+    <div class="sdpi-wrapper">
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">Sequenz</div>
+        <input class="sdpi-item-value" id="sequence" placeholder="1{ENTER}">
+      </div>
+      <div class="sdpi-item">
+        <div class="sdpi-item-label">Preset</div>
+        <select class="sdpi-item-value select" id="preset">
+          <option value="">Choose...</option>
+          <option value="{ENTER}">Enter</option>
+          <option value="1{ENTER}">1 + Enter</option>
+          <option value="2{ENTER}">2 + Enter</option>
+          <option value="3{ENTER}">3 + Enter</option>
+          <option value="{TAB}{ENTER}">Tab + Enter</option>
+          <option value="{DOWN}{ENTER}">Down + Enter</option>
+          <option value="{ESC}">Escape</option>
+          <option value="^n">Ctrl + N</option>
+          <option value="^k">Ctrl + K</option>
+          <option value="^+o">Ctrl + Shift + O</option>
+          <option value="^+m">Ctrl + Shift + M</option>
+          <option value="%{DOWN}">Alt + Down</option>
+        </select>
+      </div>
+      <p class="hint">The target window must be focused. Syntax: Windows SendKeys, e.g. <code>{TAB}{ENTER}</code>.</p>
+    </div>
+    <script src="pi.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/yes-once",
+      "Name": "Yes once",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/yes-once",
+          "Title": "Yes\n1x"
+        }
+      ],
+      "Tooltip": "Sends the sequence for approving once.",
+      "UUID": "com.yusuf.aiapproval.yesonce"
+    },
+    {
+      "Icon": "images/always",
+      "Name": "Always",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/always",
+          "Title": "Always"
+        }
+      ],
+      "Tooltip": "Sends the sequence for always approving.",
+      "UUID": "com.yusuf.aiapproval.always"
+    },
+    {
+      "Icon": "images/no",
+      "Name": "No",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/no",
+          "Title": "Nein"
+        }
+      ],
+      "Tooltip": "Sends the sequence for rejecting.",
+      "UUID": "com.yusuf.aiapproval.no"
+    },
+    {
+      "Icon": "images/custom",
+      "Name": "Custom",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/custom",
+          "Title": "Custom"
+        }
+      ],
+      "Tooltip": "Sends a freely configurable sequence.",
+      "UUID": "com.yusuf.aiapproval.custom"
+    },
+    {
+      "Icon": "images/new-chat",
+      "Name": "New Chat",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/new-chat",
+          "Title": "New\nChat"
+        }
+      ],
+      "Tooltip": "Sends the configured shortcut for starting a new chat.",
+      "UUID": "com.yusuf.aiapproval.newchat"
+    },
+    {
+      "Icon": "images/model-menu",
+      "Name": "Model Menu",
+      "PropertyInspectorPath": "property-inspector/pi.html",
+      "States": [
+        {
+          "Image": "images/model-menu",
+          "Title": "Model"
+        }
+      ],
+      "Tooltip": "Sends the configured shortcut for opening or switching the model menu.",
+      "UUID": "com.yusuf.aiapproval.modelmenu"
+    }
+  ],
+  "Author": "Yusuf",
+  "Category": "AI Approval",
+  "CategoryIcon": "images/category",
+  "CodePathWin": "bin/AiApprovalDeck.exe",
+  "Description": "Stream Deck buttons for Codex, Claude, and terminal approval prompts.",
+  "Icon": "images/plugin",
+  "Name": "AI Approval Buttons",
+  "OS": [
+    {
+      "MinimumVersion": "10",
+      "Platform": "windows"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.5"
+  },
+  "Version": "1.1.0"
+}
