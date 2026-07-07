@@ -13,6 +13,12 @@ The buttons send configurable key sequences to the currently focused window:
 
 You can edit every sequence in the Stream Deck property inspector.
 
+## Easy Install
+
+Download the latest `AI-Approval-Buttons.streamDeckPlugin` file from the GitHub releases page and double-click it.
+
+Stream Deck will import the plugin automatically. Restart the Stream Deck app if the **AI Approval** category does not appear right away.
+
 ## Build
 
 ```powershell
@@ -32,6 +38,18 @@ dist\com.aiapproval.buttons.sdPlugin
 ```
 
 Then restart the Stream Deck app. The plugin category is **AI Approval**.
+
+## Package for Sharing
+
+```powershell
+.\package.ps1
+```
+
+This creates:
+
+```text
+dist\AI-Approval-Buttons.streamDeckPlugin
+```
 
 ## Sequence Syntax
 

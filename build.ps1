@@ -21,7 +21,9 @@ if ($resolvedPluginDir.StartsWith($resolvedDist, [System.StringComparison]::Ordi
 dotnet publish (Join-Path $root "src\AiApprovalDeck\AiApprovalDeck.csproj") `
     -c Release `
     -r win-x64 `
-    --self-contained false `
+    --self-contained true `
+    -p:PublishSingleFile=true `
+    -p:IncludeNativeLibrariesForSelfExtract=true `
     -o $binDir
 if ($LASTEXITCODE -ne 0) {
     throw "dotnet publish failed with exit code $LASTEXITCODE"
